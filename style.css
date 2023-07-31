@@ -348,7 +348,7 @@ background-color: #797979;
     
     #hero-section{
         display: flex;
-        height: 180vh;
+        height: 150vh;
         flex-direction: column;
     }
     
@@ -380,7 +380,7 @@ background-color: #797979;
             font-size: 1.2rem;
             background-color: #0B0B0B;
             margin-left:20px;
-            border: solid #ff5f1f;
+           
     }
     #CTA-hero-section{
         background-color: #ff5f1f;
