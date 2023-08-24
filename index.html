@@ -11,40 +11,29 @@
 <body>
     <div id="Home Page">
         <!-- Header -->
-            <nav class="navbar bg-body-tertiary">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#"><img src="./Assets/Images/Logo.png" alt="" class="logo"></a>
-                  <button class="hamburger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <img src="./Images/hamburger.png" width="50px" height="50px"alt="menu" class="hamburgericon">
-                  </button>
-                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Web Touter</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#hero-section">Home</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about-us">About Us</a>
-                          </li>
-                          <!-- <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
-                          </li> -->
-                          <li class="nav-item">
-                            <a class="nav-link" href="#contact-us">Contact Us</a>
-                          </li>
-                      </ul>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </nav>
+            <div class="header">
+            <div class="logo-new">
+            <img class="logo-img "src="Assets/Images/Logo.png" alt="Web Touter">
+            </div>
+        <div id="menu">
+            <div id="menu-bar" onclick="menuOnClick()">
+              <div id="bar1" class="bar"></div>
+              <div id="bar2" class="bar"></div>
+              <div id="bar3" class="bar"></div>
+            </div>
+            <nav class="nav" id="nav">
+              <ul>
+                <li><a href="#hero-section">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about-us">About us</a></li>
+                <li><a href="#contact-us">Contact us</a></li>
+              </ul>
+            </nav> 
+        </div>
+          
+          <div class="menu-bg" id="menu-bg"></div>
+
+        </div>
         
         
         <!-- Hero section -->
