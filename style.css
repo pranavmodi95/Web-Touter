@@ -104,7 +104,7 @@
             z-index: 1;
             width: 0;
             height: 0;
-            margin: 20px 20px 20px 0; /* Adjusted margin to move to the right */
+            margin: 20px 10px 20px 0; /* Adjusted margin to move to the right */
             background: radial-gradient(circle, #ff5f1f, #ff5f1f);
             border-radius: 50%;
             transition: 0.3s ease;
@@ -470,7 +470,11 @@ background-color: #797979;
         border-radius: 50%;
         /* border: solid #45a049; */
     }
-
+.change-bg {
+        width: 207px;
+        height: 400px;
+        transform: translate(8%, -18%);
+        }
     #hero-section{
         display: flex;
         height: 150vh;
